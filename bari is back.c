@@ -7,7 +7,7 @@ scanf("%d",&m);
 
 int a[n];
 printf("Enter the number of the element to take input (<=%d):",n);
-scanf("%d",&m);
+scanf("%d",&n);
 
 printf("Enter %d elements: \n",m);
 for(int i=0;i<m;i++)
@@ -22,4 +22,5 @@ printf("%d",a[i]);
 return 0;
 
 }
+
 
